@@ -1,0 +1,16 @@
+.app-container {
+	padding: 20px 20px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.item {
+	display: inline-flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.items-container ul li {
+	margin: 10px 0;
+}
