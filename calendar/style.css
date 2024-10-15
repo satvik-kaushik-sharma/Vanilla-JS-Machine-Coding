@@ -1,0 +1,31 @@
+.timeline {
+	padding: 30px;
+	display: flex;
+	gap: 20px;
+}
+.time-col,
+.lines-col {
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+}
+
+.lines-col {
+	width: 100%;
+	position: relative;
+}
+
+.lines-col div {
+	height: 1px;
+}
+
+.lines-col div hr {
+	margin: 0;
+}
+
+.card {
+	position: absolute;
+	/* align-items: left; */
+	right: 0;
+	border: 1px solid #fff;
+}
