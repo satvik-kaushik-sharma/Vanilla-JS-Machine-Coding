@@ -1,0 +1,27 @@
+.app {
+	padding: 20px;
+}
+.product-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 10px;
+}
+
+.paginator-container .buttons {
+	display: flex;
+	gap: 10px;
+	justify-content: center;
+}
+
+.product-card {
+	height: 300px;
+	padding: 20px;
+}
+
+.product-card__image {
+	height: 75%;
+}
+
+.page-button[data-is-active="true"] button {
+	background-color: aqua;
+}
